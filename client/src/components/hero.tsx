@@ -47,7 +47,7 @@ export default function Hero() {
 
           <div className="flex justify-center lg:justify-end">
             <img
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+              src="/src/images/joe_profile.webp"
               alt="Joe LeBoube - Professional headshot"
               className="rounded-full w-80 h-80 object-cover border-8 border-white/20 shadow-2xl"
             />
