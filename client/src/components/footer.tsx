@@ -31,9 +31,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Alex Chen</h3>
+            <h3 className="text-xl font-bold mb-4">Joe LeBoube</h3>
             <p className="text-white/70 mb-4">
-              Full Stack Developer passionate about creating amazing digital experiences.
+              Sr Customer Solutions Manager passionate about helping customers accelerate their Cloud journey.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -66,8 +66,8 @@ export default function Footer() {
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Get In Touch</h3>
-            <p className="text-white/70 mb-2">alex.chen@example.com</p>
-            <p className="text-white/70 mb-4">San Francisco, CA</p>
+            <p className="text-white/70 mb-2">joeleboube@gmail.com</p>
+            <p className="text-white/70 mb-4">Cloud Solutions Expert</p>
             <Button className="bg-accent hover:bg-amber-600 text-white font-semibold">
               <i className="fas fa-download mr-2"></i>
               Download Resume
@@ -77,7 +77,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-8 pt-8 text-center">
           <p className="text-white/70">
-            © 2024 Alex Chen. All rights reserved. Built with ❤️ and modern web technologies.
+            © 2024 Joe LeBoube. All rights reserved. Built with ❤️ and modern web technologies.
           </p>
         </div>
       </div>

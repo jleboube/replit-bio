@@ -52,17 +52,17 @@ export default function Contact() {
     {
       icon: "fas fa-envelope",
       label: "Email",
-      value: "alex.chen@example.com",
+      value: "joeleboube@gmail.com",
     },
     {
-      icon: "fas fa-phone",
-      label: "Phone",
-      value: "+1 (555) 123-4567",
+      icon: "fas fa-briefcase",
+      label: "Role",
+      value: "Sr Customer Solutions Manager",
     },
     {
-      icon: "fas fa-map-marker-alt",
-      label: "Location",
-      value: "San Francisco, CA",
+      icon: "fas fa-cloud",
+      label: "Specialization",
+      value: "Cloud Solutions & Leadership",
     },
   ];
 
@@ -89,8 +89,9 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-semibold text-secondary mb-6">Let's Connect</h3>
               <p className="text-lg text-slate-600 mb-8">
-                I'm always interested in hearing about new opportunities and exciting projects.
-                Whether you have a question or just want to say hi, feel free to reach out!
+                I'm always interested in discussing cloud transformation opportunities and helping
+                organizations accelerate their digital journey. Whether you need strategic guidance
+                or want to explore partnership possibilities, feel free to reach out!
               </p>
             </div>
 
