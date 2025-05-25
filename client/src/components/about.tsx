@@ -14,33 +14,33 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
-              alt="Modern development workspace"
+              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400"
+              alt="Cloud technology workspace"
               className="rounded-xl shadow-lg w-full h-auto"
             />
           </div>
 
           <div className="space-y-6">
             <p className="text-lg text-slate-600 leading-relaxed">
-              I'm a passionate full-stack developer with over 5 years of experience building
-              web applications that users love. My journey started with a Computer Science
-              degree from UC Berkeley, and I've been constantly learning and evolving ever since.
+              I'm a seasoned technology leader with over 20 years of experience helping organizations
+              transform their operations through cloud solutions. My career has spanned from hands-on
+              technical work in consoles and IDEs to strategic leadership roles managing large teams.
             </p>
 
             <p className="text-lg text-slate-600 leading-relaxed">
-              I specialize in React, Node.js, and modern web technologies, but I'm always
-              excited to learn new tools and frameworks. When I'm not coding, you can find
-              me hiking, playing guitar, or exploring the latest design trends.
+              I specialize in customer success, cloud migration strategies, and building high-performing
+              teams. My passion lies in understanding complex business challenges and translating them
+              into actionable cloud solutions that drive real business value.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-2xl font-bold text-primary">5+</div>
+                <div className="text-2xl font-bold text-primary">20+</div>
                 <div className="text-sm text-slate-600">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-2xl font-bold text-primary">50+</div>
-                <div className="text-sm text-slate-600">Projects Completed</div>
+                <div className="text-2xl font-bold text-primary">100+</div>
+                <div className="text-sm text-slate-600">Teams Managed</div>
               </div>
             </div>
 

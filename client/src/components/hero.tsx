@@ -18,22 +18,22 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-              Hi, I'm <span className="text-accent">Alex Chen</span>
+              Hi, I'm <span className="text-accent">Joe LeBoube</span>
             </h1>
             <p className="text-xl sm:text-2xl mb-8 text-white/90">
-              Full Stack Developer & UI/UX Designer
+              Sr Customer Solutions Manager
             </p>
             <p className="text-lg mb-8 text-white/80 leading-relaxed">
-              I create beautiful, functional web applications that solve real-world problems.
-              With 5+ years of experience in modern web technologies, I bring ideas to life
-              through code and design.
+              I help customers accelerate their Cloud journey through strategic solutions and expert guidance.
+              With over 20 years of technology experience, I've successfully managed teams ranging from 
+              individual contributors to hundreds of direct and indirect reports.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 onClick={() => scrollToSection("projects")}
                 className="bg-accent hover:bg-amber-600 text-white px-8 py-3 text-base font-semibold"
               >
-                View My Work
+                View My Experience
               </Button>
               <Button
                 onClick={() => scrollToSection("contact")}
@@ -47,8 +47,8 @@ export default function Hero() {
 
           <div className="flex justify-center lg:justify-end">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
-              alt="Alex Chen - Professional headshot"
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+              alt="Joe LeBoube - Professional headshot"
               className="rounded-full w-80 h-80 object-cover border-8 border-white/20 shadow-2xl"
             />
           </div>

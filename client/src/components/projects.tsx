@@ -5,52 +5,52 @@ import { Badge } from "@/components/ui/badge";
 export default function Projects() {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and Stripe integration. Features include user authentication, product management, and secure payments.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
-      alt: "E-commerce Platform Project",
-      technologies: ["React", "Node.js", "MongoDB"],
-      techColors: ["bg-blue-100 text-blue-800", "bg-green-100 text-green-800", "bg-purple-100 text-purple-800"],
+      title: "Enterprise Cloud Migration",
+      description: "Led a comprehensive cloud migration strategy for a Fortune 500 company, migrating 200+ applications to AWS with zero downtime and 40% cost reduction.",
+      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
+      alt: "Cloud Migration Project",
+      technologies: ["AWS", "Migration", "Strategy"],
+      techColors: ["bg-orange-100 text-orange-800", "bg-blue-100 text-blue-800", "bg-green-100 text-green-800"],
     },
     {
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
-      alt: "Task Management App",
-      technologies: ["Vue.js", "Firebase", "Tailwind"],
-      techColors: ["bg-blue-100 text-blue-800", "bg-orange-100 text-orange-800", "bg-pink-100 text-pink-800"],
+      title: "Multi-Cloud Strategy",
+      description: "Designed and implemented a multi-cloud architecture spanning AWS, Azure, and GCP for improved resilience and optimized costs across global operations.",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
+      alt: "Multi-Cloud Architecture",
+      technologies: ["AWS", "Azure", "GCP"],
+      techColors: ["bg-orange-100 text-orange-800", "bg-blue-100 text-blue-800", "bg-green-100 text-green-800"],
     },
     {
-      title: "Weather Forecast App",
-      description: "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics with a clean, intuitive interface.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
-      alt: "Weather App",
-      technologies: ["React Native", "Weather API", "Maps"],
-      techColors: ["bg-blue-100 text-blue-800", "bg-yellow-100 text-yellow-800", "bg-indigo-100 text-indigo-800"],
+      title: "Customer Success Program",
+      description: "Built and scaled a customer success organization from 5 to 150+ team members, achieving 95% customer retention and $50M+ ARR growth.",
+      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
+      alt: "Team Leadership",
+      technologies: ["Leadership", "Growth", "Strategy"],
+      techColors: ["bg-purple-100 text-purple-800", "bg-green-100 text-green-800", "bg-blue-100 text-blue-800"],
     },
     {
-      title: "Analytics Dashboard",
-      description: "A comprehensive business intelligence dashboard with real-time data visualization, custom reports, and interactive charts for data-driven decisions.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
-      alt: "Analytics Dashboard",
-      technologies: ["React", "D3.js", "Python"],
-      techColors: ["bg-blue-100 text-blue-800", "bg-green-100 text-green-800", "bg-purple-100 text-purple-800"],
+      title: "Digital Transformation",
+      description: "Spearheaded digital transformation initiatives for healthcare organizations, modernizing legacy systems and improving patient outcomes through cloud technologies.",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
+      alt: "Digital Transformation",
+      technologies: ["Healthcare", "Modernization", "Cloud"],
+      techColors: ["bg-red-100 text-red-800", "bg-blue-100 text-blue-800", "bg-green-100 text-green-800"],
     },
     {
-      title: "Real-time Chat App",
-      description: "A modern messaging application with real-time communication, file sharing, group chats, and end-to-end encryption for secure conversations.",
-      image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
-      alt: "Chat Application",
-      technologies: ["Socket.io", "Node.js", "Redis"],
-      techColors: ["bg-blue-100 text-blue-800", "bg-green-100 text-green-800", "bg-red-100 text-red-800"],
+      title: "Partner Ecosystem",
+      description: "Developed strategic partnerships with technology vendors and system integrators, creating a $25M+ partner channel and expanding market reach.",
+      image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
+      alt: "Partnership Development",
+      technologies: ["Partnerships", "Business Dev", "Growth"],
+      techColors: ["bg-indigo-100 text-indigo-800", "bg-purple-100 text-purple-800", "bg-green-100 text-green-800"],
     },
     {
-      title: "Blog Platform",
-      description: "A content management system for bloggers with markdown support, SEO optimization, comment system, and social media integration.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
-      alt: "Blog Platform",
-      technologies: ["Next.js", "Markdown", "Prisma"],
-      techColors: ["bg-blue-100 text-blue-800", "bg-gray-100 text-gray-800", "bg-green-100 text-green-800"],
+      title: "Innovation Lab",
+      description: "Established an innovation lab focused on emerging technologies like AI/ML and IoT, driving next-generation solution development and competitive advantage.",
+      image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250",
+      alt: "Innovation Lab",
+      technologies: ["AI/ML", "IoT", "Innovation"],
+      techColors: ["bg-yellow-100 text-yellow-800", "bg-pink-100 text-pink-800", "bg-purple-100 text-purple-800"],
     },
   ];
 
@@ -58,9 +58,9 @@ export default function Projects() {
     <section id="projects" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-secondary mb-4">Featured Projects</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-secondary mb-4">Key Achievements</h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            A showcase of my recent work and personal projects
+            Highlights from my career in customer solutions and cloud transformation
           </p>
         </div>
 
@@ -89,12 +89,12 @@ export default function Projects() {
 
                 <div className="flex justify-between items-center">
                   <Button variant="link" className="text-primary hover:text-blue-700 font-semibold p-0">
-                    <i className="fas fa-external-link-alt mr-1"></i>
-                    Live Demo
+                    <i className="fas fa-info-circle mr-1"></i>
+                    Learn More
                   </Button>
                   <Button variant="link" className="text-slate-600 hover:text-slate-800 p-0">
-                    <i className="fab fa-github mr-1"></i>
-                    Code
+                    <i className="fas fa-chart-bar mr-1"></i>
+                    Results
                   </Button>
                 </div>
               </CardContent>
@@ -104,8 +104,8 @@ export default function Projects() {
 
         <div className="text-center mt-12">
           <Button className="bg-primary hover:bg-blue-700 text-white px-8 py-3 font-semibold">
-            <i className="fab fa-github mr-2"></i>
-            View All Projects on GitHub
+            <i className="fas fa-briefcase mr-2"></i>
+            View Full Portfolio
           </Button>
         </div>
       </div>
