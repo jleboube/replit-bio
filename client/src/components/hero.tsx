@@ -47,7 +47,7 @@ export default function Hero() {
 
           <div className="flex justify-center lg:justify-end">
             <img
-              src="/src/images/joe_profile.webp"
+              src="/replit-bio/src/images/joe_profile.webp"
               alt="Joe LeBoube - Professional headshot"
               className="rounded-full w-80 h-80 object-cover border-8 border-white/20 shadow-2xl"
             />
