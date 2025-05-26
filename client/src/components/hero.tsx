@@ -26,7 +26,7 @@ export default function Hero() {
             <p className="text-lg mb-8 text-white/80 leading-relaxed">
               I help customers accelerate their Cloud journey through strategic solutions and expert guidance.
               With over 20 years of technology experience, I've successfully managed teams ranging from 
-              individual contributors to hundreds of direct and indirect reports.
+              individual contributors to hundreds of indirect reports.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
