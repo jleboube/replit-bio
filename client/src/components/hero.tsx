@@ -42,6 +42,11 @@ export default function Hero() {
               >
                 Get In Touch
               </Button>
+              <Button asChild>
+                <a href="/resume.pdf" download>
+                  Download Resume
+                </a>
+              </Button>
             </div>
           </div>
 
